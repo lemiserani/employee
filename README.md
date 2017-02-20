@@ -45,7 +45,7 @@ $
 $ git clone https://github.com/lemiserani/employee.git 
 $ cd employee
 
-$ pip install -U -r requirements.txt
+$ pip3.4 install -U -r requirements.txt
 
 $ python3.4 manage.py makemigrations
 $ python3.4 manage.py migrate
@@ -56,7 +56,8 @@ $ python3.4 manage.py runserver
 ### Test - Coverage
 ```sh
 $ cd employee
-$ python manage.py test
+$ python3.4 -m coverage  run manage.py
+$ python3.4 manage.py test
 ```
 ---------------------------------------------
 

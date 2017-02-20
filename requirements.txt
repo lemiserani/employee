@@ -2,3 +2,4 @@ Django
 django-health-check
 django-tastypie
 django-nose
+coverage
