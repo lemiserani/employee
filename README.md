@@ -34,9 +34,8 @@ I enyoed that opportuniy about learning Python. I remembered ruby on rails :)
 	- curl -X POST -H "Content-Type: application/json" -d '{"name":"Leandro", "email":"leandro.miserani@magazineluiza.com.br","department":{"name": "Architecture"}}' http://localhost:8000/api/v1/employee/
 
 ### Repository
-```sh
-$ 
-```
+ https://github.com/lemiserani/employee.git
+ 
 ### Health Check API
 	- healthcheck/
 
